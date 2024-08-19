@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "Table2": "{\"name\":\"Table2\",\"title\":\"Table2\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"DESSERT\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DESSERT\"},\"Our_x0020_desserts_x0020_are_x0020_made_x0020_in-house_x0020_by_x0020_our_x0020_expert_x0020_pastry_x0020_chef\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Our desserts are made in-house by our expert pastry chef\"},\"Price\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Price\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+  },
+  "EntityName": "Table2_1",
+  "TableName": "Table2"
+}

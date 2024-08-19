@@ -1,0 +1,116 @@
+Screen1 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(237, 237, 237, 1)
+    ImagePosition: =ImagePosition.Stretch
+
+    Label1 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =
+        Height: =164
+        Size: =60
+        Text: ="PUREMENT"
+        Width: =1366
+        ZIndex: =1
+
+    Button2 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =Navigate(Screen5)
+        PressedBorderColor: =RGBA(214, 221, 224, 1)
+        PressedColor: =Color.Black
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="About Us"
+        Underline: =true
+        X: =1151
+        Y: =86
+        ZIndex: =2
+
+    Button4 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =Navigate(Screen1)
+        PressedBorderColor: =RGBA(214, 221, 224, 1)
+        PressedColor: =Color.Black
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Home"
+        Underline: =true
+        X: =1151
+        Y: =46
+        ZIndex: =3
+
+    Image11 As image:
+        Height: =284
+        Image: ='138710114'
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        Y: =164
+        ZIndex: =4
+
+    Button3 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(237, 237, 237, 1)
+        OnSelect: =Navigate(Screen2,ScreenTransition.Fade)
+        PressedColor: =Color.Black
+        PressedFill: =RGBA(214, 221, 224, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Menu"
+        Underline: =true
+        Width: =206
+        X: =75
+        Y: =258
+        ZIndex: =5
+
+    Image12 As image:
+        Height: =320
+        Image: =beve
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        Y: =448
+        ZIndex: =6
+
+    Button3_3 As button:
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =78
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =NewForm(Form5); Navigate(Screen6)
+        PressedColor: =RGBA(0, 0, 0, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Book your table"
+        Underline: =true
+        Width: =202
+        X: =1086
+        Y: =597
+        ZIndex: =7
+

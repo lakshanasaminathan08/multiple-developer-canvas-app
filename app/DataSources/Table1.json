@@ -3,15 +3,16 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2024-06-06T15:21:00.0640000Z",
+      "LastChangedTimeString": "2024-07-30T18:11:05.8320000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "Row id",
       "Date": "Date",
-      "PartySize": "PartySize"
+      "PartySize": "PartySize",
+      "Time": "Time"
     },
-    "DatasetName": "b!hqUY8ivgfUCTsp6QEzgnN-3k9QlGe3dEpGrJBvRk1bHN2zNKHV5KTqKobAzIikKx.01QKDX5MI4V624D3OV2ZFYXRTK32O2QD4E",
+    "DatasetName": "b!hqUY8ivgfUCTsp6QEzgnN-3k9QlGe3dEpGrJBvRk1bHN2zNKHV5KTqKobAzIikKx.01QKDX5MIJ6FJQNW74DRB24JWLQWBVZIXH",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,

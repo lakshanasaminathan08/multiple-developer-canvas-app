@@ -81,10 +81,10 @@ Screen6 As screen:
         ZIndex: =6
 
     Form5 As form:
-        DataSource: =Table1_3
+        DataSource: =Table1
         DefaultMode: =FormMode.New
         Height: =118
-        Item: =First(Table1_3)
+        Item: =First(Table1)
         OnFailure: =Notify("Fill all necessary fields", NotificationType.Error, 10000)
         OnSuccess: =Notify("Successfully Submitted your booking", NotificationType.Success, 10000)
         X: =230
@@ -97,10 +97,10 @@ Screen6 As screen:
             DataField: ="PartySize"
             Default: =ThisItem.PartySize
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Table1_3],DataSourceInfo.DisplayName,PartySize)
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,PartySize)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@Table1_3], DataSourceInfo.MaxLength, PartySize)
+            MaxLength: =DataSourceInfo([@Table1], DataSourceInfo.MaxLength, PartySize)
             Required: =true
             Update: =DataCardValue3.Text
             Width: =266
@@ -166,7 +166,7 @@ Screen6 As screen:
             DataField: ="Date"
             Default: =ThisItem.Date
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Table1_3],DataSourceInfo.DisplayName,Date)
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,Date)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false

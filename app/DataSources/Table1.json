@@ -9,6 +9,7 @@
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "Row id",
       "Date": "Date",
+      "Name": "Name",
       "PartySize": "PartySize",
       "Time": "Time"
     },

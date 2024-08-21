@@ -1,0 +1,26 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =ClearCollect(
+            food_desserts,
+            {
+                name: "CRÈME BRÛLÉE",
+                description: "A freshly baked brownie loaded with dark chocolate chips and walnuts",
+                price: "$10.00"
+            },
+            {
+                name: "TIRAMISU",
+                description: "A traditional Italian dessert with layers of coffee-soaked ladyfingers and mascarpone",
+                price: "$20.00"
+            }
+        
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

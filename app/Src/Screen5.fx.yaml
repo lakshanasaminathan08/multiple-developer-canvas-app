@@ -1,0 +1,150 @@
+Screen5 As screen:
+    Fill: =RGBA(134, 135, 65, 1)
+
+    Label1_1 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =
+        Height: =164
+        Size: =60
+        Text: ="PUREMENT"
+        Width: =1366
+        ZIndex: =1
+
+    TextCanvas1 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Courier New'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =96
+        Size: =50
+        Text: ="CONTACT"
+        Width: =242
+        X: =185
+        Y: =600
+        ZIndex: =2
+
+    TextCanvas2 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Courier New'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Size: =50
+        Text: ="ABOUT US"
+        Width: =274
+        X: =185
+        Y: =220
+        ZIndex: =3
+
+    TextCanvas3 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(0, 0, 0, 1)
+        Height: =110
+        Size: =25
+        Text: |-
+            ="500 Terry Francine St. 
+            San Francisco CA 94158"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =278
+        X: =514
+        Y: =593
+        ZIndex: =4
+
+    TextCanvas4 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(0, 0, 0, 1)
+        Height: =96
+        Size: =25
+        Text: |-
+            ="MON - FRI: 5PM - 12AM 
+            SAT - SUN: 4PM - 1AM"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =302
+        X: =849
+        Y: =600
+        ZIndex: =5
+
+    TextCanvas5 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        Height: =366
+        Size: =16
+        Text: |-
+            ="Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.           
+            Let visitors to your website know that they'll find what they're looking for right here. Present your company as the solution to a specific problem and highlight the ways your services can make life better for people. In a few words, explain the impact your company has had, or hopes to have, on its community and the world. Tell readers how your company puts its users first. Emphasize how it looks out for them, finding solutions to meet their needs and keep them satisfied. Reassure potential customers that they won't regret choosing your services.
+            
+            "
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =652
+        X: =514
+        Y: =220
+        ZIndex: =6
+
+    Button4_4 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =Navigate(Screen1)
+        PressedBorderColor: =RGBA(214, 221, 224, 1)
+        PressedColor: =Color.Black
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Home"
+        Underline: =true
+        X: =1140
+        Y: =22
+        ZIndex: =7
+
+    Button3_5 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =34
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(237, 237, 237, 1)
+        OnSelect: =Navigate(Screen2)
+        PressedColor: =Color.Black
+        PressedFill: =RGBA(214, 221, 224, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Menu"
+        Underline: =true
+        Width: =134
+        X: =1153
+        Y: =62
+        ZIndex: =8
+
+    Button3_6 As button:
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =46
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =NewForm(Form5); Navigate(Screen6)
+        PressedColor: =RGBA(0, 0, 0, 1)
+        PressedFill: =Color.White
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Book your table"
+        Underline: =true
+        Width: =186
+        X: =1127
+        Y: =96
+        ZIndex: =9
+

@@ -1,0 +1,141 @@
+Screen4 As screen:
+    Fill: =RGBA(101, 156, 156, 1)
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =537
+        Items: =Table1_3
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =104
+        Width: =644
+        X: =393
+        Y: =222
+        ZIndex: =1
+
+        Title1 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.Date
+            VerticalAlign: =VerticalAlign.Top
+            Width: =459
+            X: =21
+            Y: =12
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: |-
+                ="Party Size: " & ThisItem.PartySize
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1.Width
+            X: =Title1.X
+            Y: =Title1.Y + Title1.Height
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledBorderColor: =RGBA(56, 56, 56, 1)
+            DisabledColor: =RGBA(119, 119, 119, 1)
+            Height: =65
+            Icon: =Icon.Trash
+            OnSelect: =Remove(Table1_3, ThisItem)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="Delete item"
+            Width: =74
+            X: =558
+            Y: =12
+            ZIndex: =4
+
+        Separator6 As rectangle:
+            Height: =4
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+    Label1_2 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =
+        Height: =190
+        Size: =50
+        Text: ="PUREMENT"
+        Width: =1366
+        ZIndex: =2
+
+    Button4_5 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =Navigate(Screen1)
+        PressedBorderColor: =RGBA(214, 221, 224, 1)
+        PressedColor: =Color.Black
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Home"
+        Underline: =true
+        X: =1151
+        Y: =46
+        ZIndex: =3
+
+    Button2_4 As button:
+        BorderColor: =RGBA(214, 221, 224, 1)
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(214, 221, 224, 1)
+        OnSelect: =Navigate(Screen5)
+        PressedBorderColor: =RGBA(214, 221, 224, 1)
+        PressedColor: =Color.Black
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="About Us"
+        Underline: =true
+        X: =1151
+        Y: =86
+        ZIndex: =4
+
+    TextCanvas7 As Text:
+        BorderStyle: =""
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Dancing Script'
+        Height: =46
+        Size: =25
+        Text: ="TABLE BOOKINGS"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =280
+        X: =36
+        Y: =126
+        ZIndex: =5
+

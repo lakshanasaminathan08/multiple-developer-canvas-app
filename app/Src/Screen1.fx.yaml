@@ -114,3 +114,13 @@ Screen1 As screen:
         Y: =597
         ZIndex: =7
 
+    TextCanvas9 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Size: =20
+        Text: ="contact us"
+        Width: =96
+        X: =1183
+        Y: =14
+        ZIndex: =8
+

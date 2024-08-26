@@ -15,7 +15,7 @@
     "Controls\\57.json": "C8_vf9QHx7L4hQFgKbYzTYqUYajXqSRMqGg3U950crmDjU=",
     "Controls\\68.json": "C8_/iKIKCQ2eAi3jAppwijgWXGRg89Y7wTZvuLXsedQMek=",
     "Controls\\78.json": "C8_m78x1BMMDHEtU1UfK+YrWIghr78tdXXKXfEsjGMIOdQ=",
-    "Header.json": "C8_gfzYAL5BpESA5yZhEo0nV7rIUD6XM9Na0ZwdY0xolbo=",
+    "Header.json": "C8_Yi3SokUYoOaLgMmub0VN3qS/eQ0zUYJfZgwSSYj8E4k=",
     "Properties.json": "C8_tdPfCYR6IaZddgL8mqRk/kdTW698ka9KRoW+Ebrobns=",
     "References\\DataSources.json": "C8_I0Y8IsX9GfWEnjwBVCUuhO+0NdTdpjJ5zaTffbnLxGo=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -24,7 +24,7 @@
     "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
     "Resources\\PublishInfo.json": "C8_IdSrv1M5C7Q9lNaGTti2s/36EgcsMK7GeVpu2mK5Mok="
   },
-  "ClientStampedChecksum": "C8_+R3jvvXwmuyWP0vuPKDjXytV8tgpybb5rm5ul3LpfSI=",
+  "ClientStampedChecksum": "C8_8DshZNi4iC7Kp9D+9D+g/PrrfkyXFLbfHcctQZRAUdI=",
   "ServerPerFileChecksums": {
     ".gitignore": "C8_VaC8EcEG56Ufcy1DFyC8Ky19iV9xSsXMDIAcmF2GTj8=",
     "AppCheckerResult.sarif": "C8_UtbTCWEAK1yX/4Z1ZrBnvdVaGB8xDe121gGFXS62bR8=",
@@ -41,7 +41,7 @@
     "Controls\\57.json": "C8_vf9QHx7L4hQFgKbYzTYqUYajXqSRMqGg3U950crmDjU=",
     "Controls\\68.json": "C8_/iKIKCQ2eAi3jAppwijgWXGRg89Y7wTZvuLXsedQMek=",
     "Controls\\78.json": "C8_m78x1BMMDHEtU1UfK+YrWIghr78tdXXKXfEsjGMIOdQ=",
-    "Header.json": "C8_gfzYAL5BpESA5yZhEo0nV7rIUD6XM9Na0ZwdY0xolbo=",
+    "Header.json": "C8_Yi3SokUYoOaLgMmub0VN3qS/eQ0zUYJfZgwSSYj8E4k=",
     "Properties.json": "C8_tdPfCYR6IaZddgL8mqRk/kdTW698ka9KRoW+Ebrobns=",
     "References\\DataSources.json": "C8_I0Y8IsX9GfWEnjwBVCUuhO+0NdTdpjJ5zaTffbnLxGo=",
     "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
@@ -50,5 +50,5 @@
     "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
     "Resources\\PublishInfo.json": "C8_IdSrv1M5C7Q9lNaGTti2s/36EgcsMK7GeVpu2mK5Mok="
   },
-  "ServerStampedChecksum": "C8_+R3jvvXwmuyWP0vuPKDjXytV8tgpybb5rm5ul3LpfSI="
+  "ServerStampedChecksum": "C8_8DshZNi4iC7Kp9D+9D+g/PrrfkyXFLbfHcctQZRAUdI="
 }

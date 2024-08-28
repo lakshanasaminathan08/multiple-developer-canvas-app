@@ -85,8 +85,8 @@
   "HeaderLastSavedDateTimeUTC": "08/28/2024 09:38:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "2d4162f0-4e76-435e-bc50-a8d95adb359e": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/4c4a5b31299f49efb5e4ade400c37c19\"",
-    "d2051e09-f325-4676-96d4-bd094c31af9e": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/e75a8d0b97624078a0a2bcff70839983\""
+    "2d4162f0-4e76-435e-bc50-a8d95adb359e": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/0eed8f076b0b49268ed34b662f9aec6c\"",
+    "d2051e09-f325-4676-96d4-bd094c31af9e": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/8631ca8041c3403db248e4c37ae459ea\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {

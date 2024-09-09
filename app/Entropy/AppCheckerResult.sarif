@@ -855,6 +855,7 @@
             {
               "logicalLocations": [
                 {
+                  main
                   "fullyQualifiedName": "App.640930828"
                 }
               ],
@@ -885,6 +886,7 @@
             {
               "logicalLocations": [
                 {
+                  master
                   "fullyQualifiedName": "App.front_food"
                 }
               ],

@@ -9,7 +9,10 @@ Screen1 As screen:
         FontWeight: =
         Height: =164
         Size: =60
-        Text: ="PUREMENT1 APP"
+ main
+        Text: ="Food"
+ Text: ="PUREMENT1 APP"
+ master
         Width: =1366
         ZIndex: =1
 
@@ -118,7 +121,10 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Edit
         Height: =32
         Size: =20
+ main
+        Text: ="hiii"
         Text: ="Reach us"
+ master
         Width: =96
         X: =1183
         Y: =14
